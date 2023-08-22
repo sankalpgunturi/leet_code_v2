@@ -11,5 +11,5 @@ class Solution:
                 r -= 1 
             else:
                 l += 1
-                # r -= 1
+                r -= 1
         return area
