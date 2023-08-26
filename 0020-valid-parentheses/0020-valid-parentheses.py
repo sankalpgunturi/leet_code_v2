@@ -1,7 +1,7 @@
 class Solution:
     def isValid(self, s: str) -> bool:
-        if len(s) < 2:
-            return False
+        # if len(s) < 2:
+        #     return False
         closeToOpen = {'}':'{', ')':'(', ']':'['}
         stack = []
         for c in s:
